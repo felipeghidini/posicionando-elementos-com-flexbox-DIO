@@ -57,3 +57,43 @@
     float: right;
     flex-direction: column-reverse;
 }
+
+.flex-container-2 {
+    display: flex;
+    height: 150px;
+    border: 2px solid black;
+    max-width: 310px;
+}
+
+.item-2 {
+    font-size: 24px;
+    height: 50%;
+    text-align: center;  
+    width: 100px;
+    line-height: 50px;
+    min-width: 100px;
+}
+
+.nowrap {
+    flex-wrap: nowrap;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.orange {
+    background-color: orangered;
+}
