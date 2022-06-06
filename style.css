@@ -138,3 +138,43 @@
     height: 50px;
     line-height: 50px;
 }
+
+.container {
+    max-width: 400px;
+    border: 1px solid black;
+    display: flex;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.item-4 {
+    background-color: blueviolet;
+    margin: 5px;
+    text-align: center;
+    color: white;
+}
+
+.flex-start {
+    justify-content: flex-start;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.center {
+    justify-content: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.column {
+    flex-direction: column;
+    min-height: 200px;
+}
