@@ -97,3 +97,44 @@
 .orange {
     background-color: orangered;
 }
+
+.flex-container-3 {
+    display: flex;
+    border: 1px solid black;
+    max-width: 500px;
+    margin-bottom: 10px;
+}
+
+.default {
+    flex-flow: row nowrap;
+}
+
+.wrap {
+    flex-flow: row wrap;
+}
+
+.wrap-reverse-2 {
+    flex-flow: row wrap-reverse;
+}
+
+.r-nowrap {
+    flex-flow: row-reverse nowrap;
+}
+
+.r-wrap {
+    flex-flow: row-reverse wrap;
+}
+
+.r-wrap-reverse {
+    flex-flow: row-reverse wrap-reverse;
+}
+
+.item-3 {
+    background-color: blueviolet;
+    margin: 5px;
+    color: white;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+}
