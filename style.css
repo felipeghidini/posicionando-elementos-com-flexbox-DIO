@@ -230,3 +230,45 @@
     flex: 0;
     padding: 20px;
 }
+
+.container-3 {
+    height: 450px;
+    max-width: 300px;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+
+.item-6 {
+    background-color: orangered;
+    padding: 0 5px;
+    margin: 5px;
+    flex: 1;
+    text-align: center;
+    color: white;
+}
+
+.stretch-2 {
+    align-content: stretch;
+}
+
+.flex-start-2 {
+    align-content: flex-start;
+}
+
+.flex-end-2 {
+    align-content: flex-end;
+}
+
+.center-3 {
+    align-content: center;
+}
+
+.space-between-2 {
+    align-content: space-between;
+}
+
+.space-around-2 {
+    align-content: space-around;
+}
