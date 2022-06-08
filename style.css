@@ -272,3 +272,198 @@
 .space-around-2 {
     align-content: space-around;
 }
+
+.flex-container-4 {
+    display: flex;
+    border: 2px solid black;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+.item-7 {
+    background-color: orangered;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.fg-0 {
+    flex-grow: 0;
+}
+
+.fg-1 {
+    flex-grow: 1;
+}
+.fg-2 {
+    flex-grow: 2;
+}
+.fg-3 {
+    flex-grow: 3;
+}
+
+.flex-container-5 {
+    display: flex;
+    border: 1px solid black;
+    max-width: 500px;
+}
+
+.item-8 {
+    background-color: coral;
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
+
+.b-auto {
+    flex-basis: auto;
+}
+
+.b-zero {
+    flex-basis: 0;
+}
+
+.b-width-100 {
+    flex-basis: 100px;
+}
+
+.flex-container-6 {
+    display: flex;
+    border: 1px solid black;
+    max-width: 350px;
+    margin-bottom: 10px;
+}
+
+.item-9 {
+    background-color: coral;
+    color: white;
+    text-align: center;
+    margin: 5px;
+    font-size: 24px;
+}
+
+.s-1 {
+    flex-shrink: 1;
+}
+
+.s-0 {
+    flex-shrink: 0;
+    flex-basis: 100px;
+}
+
+.s-2 {
+    flex-shrink: 2;
+    flex-basis: 100px;
+}
+
+.s-3 {
+    flex-shrink: 3;
+    flex-basis: 100px;
+}
+
+.flex-container-7 {
+    display: flex;
+    border: 1px solid black;
+    max-width: 400px;
+    margin-bottom: 10px;
+}
+
+.item-10 {
+    background-color: brown;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    margin: 5px;
+}
+
+.flex-1 {
+    flex: 1;
+    /* grow = 1, shrink = 1, basis = 0 */
+}
+
+.flex-2 {
+    flex: 2;
+    /* grow = 2, shrink = 1, basis = 0 */
+}
+
+.flex-container-8 {
+    display: flex;
+    border: 1px solid black;
+    max-width: 350px;
+    margin-bottom: 20px;
+}
+
+.item-11 {
+    background-color: brown;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    flex: 1;
+    margin: 5px;
+    order: 0;
+}
+
+.o1 {
+    order: 1;
+}
+
+.o2 {
+    order: 2;
+}
+
+.o3 {
+    order: 3;
+}
+
+.o4 {
+    order: 4;
+}
+
+.direction {
+    flex-direction: column;
+}
+
+.flex-container-9 {
+    display: flex;
+    border: 1px solid black;
+    max-width: 350px;
+    margin-bottom: 20px;
+    
+}
+
+.align-container {
+    align-items: center;
+}
+
+.item-12 {
+    background-color: brown;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    margin: 5px;
+}
+
+.center-4 {
+    align-self: center;
+}
+
+.start {
+    align-self: flex-start;
+}
+
+.end {
+    align-self: flex-end;
+}
+
+.base-line-2 {
+    align-self: baseline;
+}
+
+.stretch-3 {
+    align-self: stretch;
+}
+
+.auto {
+    align-self: auto;
+}
+
